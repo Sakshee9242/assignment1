@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+            background: #000000;
+        }
+        .main, .right, .left{
+            display: grid;
+            background: black;
+            box-sizing: border-box;
+            color: aliceblue;
+        }
+        .main{
+            grid-template-columns: 4fr 1fr;
+        }
+        .left{
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 5px;
+            width: 95%;
+            justify-content: space-between;
+        }
+        .left img{
+            height: 350px;
+        }
+        @media (max-width:900px){
+             .left{
+                grid-template-columns: 1fr;
+             }
+        }
+        h3{
+            font-size: 30px;
+        }
+        li{  padding: 15px;
+            display: flex;
+            justify-content: right;
+            transform: translate(-20px);
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+        .b:hover{
+            color: brown;
+        }
+        .a{
+            font-size: 35px;
+        }
+        .icon{
+            font-size: 30px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+     <div class="main">
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2023/08/26/15/21/mushroom-8215265_1280.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/09/02/02/18/ai-generated-8228027_640.png" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/08/29/20/01/dahlia-8222054_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/08/19/05/31/green-sea-turtle-8199770_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/09/01/22/57/dahlia-8227880_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/08/29/07/13/dahlia-8220659_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/09/03/13/47/bird-8230746_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/09/02/11/51/ai-generated-8228745_640.jpg" alt="" height="100%" width="100%">
+            <img src="https://cdn.pixabay.com/photo/2023/09/02/15/03/lynx-8229077_640.png" alt="" height="100%" width="100%">
+        </div>
+        <div class="right">
+            <ul> <li class="a">Shutter</li>
+                <li class="b">home</li>
+                <li class="b">photos</li>
+                <li class="b">bio</li>
+                <li class="b">blog</li>
+                <li class="b">contact</li>
+                <li class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+            
+        </div>
+     </div>
+</body>
+</html>
