@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .row .col {
+            height: 45vh;
+            width: 25%;
+            margin: 5px 10px;
+            background: conic-gradient(#696969 0deg, #696969 90deg, white 90deg, white 270deg, #696969 270deg, #696969 360deg);
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        h1 {
+            color: aliceblue;
+            font-size: 30px;
+            text-transform: capitalize;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+
+        }
+
+        .x {
+            color: black;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 15px;
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 300px;
+        }
+
+        button {
+            text-transform: capitalize;
+            width: 80px;
+            transform: translate(10px, 240px);
+            border: 2px solid rgb(77, 69, 69);
+        }
+
+        @media(max-width:1000px) {
+            .row .col {
+                width: 50%;
+                height: 200px;
+            }
+
+            .x {
+                font-size: 14px;
+            }
+
+            button {
+                transform: translate(1px, 176px);
+                font-size: 10px;
+            }
+
+        }
+
+        @media(max-width:700px) {
+            .row .col {
+                width: 60%;
+            }
+        }
+
+        @media(max-width:500px) {
+            .row .col {
+                width: 80%;
+            }
+
+            .x {
+                width: 190px;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+        <div class="col">
+            <h1>thumbnail</h1>
+            <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio?</p>
+            <button>view</button><button>edit</button>
+        </div>
+    </div>
+</body>
+
+</html>
