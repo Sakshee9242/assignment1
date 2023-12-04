@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           font-size: 20px;
+           font-family: sans-serif;
+           background-color: coral;
+           margin-top: 200px;
+           margin-left: 550px;
+       }
+    </style>
+</head>
+<body>
+    Enter Password:<input type="password" id="input"> <br>
+    <input type="checkbox" id="check" onchange="checkbox()" onclick="ShowPassword()">Show password
+
+    <script>
+   let input = document.getElementById('input')
+
+   function ShowPassword(){
+      if(input.type=="password"){
+        input.type="text"
+      }
+      else{
+        input.type="password"
+      }
+   }
+    </script>
+    
+</body>
+</html>

@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+                                       <!-- jQury link is here  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 <style>
     *{
-margin: 15px;
+      margin: 15px;
     }
 </style>
 <body>
+    <!-- Event bubbling-tickling example start-->
+    body(great-great-grandparent)
         <div class="main">
-            <div class="gp">(great-grandparent) 
-                <ul class="papa"> (grandparent)
-                    <li class="mother"> direct-parent
-                        <span>CHILD</span>
+            <div class="ggp">(great-grandparent) 
+                <ul class="gp"> (grandparent)
+                    <li class="parent"> direct-parent
+                        <span>child</span>
                     </li>
                 </ul>
             </div>
-    
         </div>
+            <!-- Event bubbling-tickling example end -->
 
+                        <!-- this is script  -->
         <script>
              $('span').parents().css("border","3px solid red")
-         // $('span').parent().css("border","3px solid red")
-         // $('span').children().css("border","3px solid red")
         </script>
- 
+                          <!-- end of script  -->
 </body>
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            border: 2px solid black;
+            text-align: center;
+            padding: 30px;
+            background-color: rgb(230, 230, 250);
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: start;
+            gap: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: light;
+        }
+
+        h3,
+        h2 {
+            margin-bottom: 30px;
+            color: #FF7373;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-size: larger;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin: 3px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        span {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Marksheet For Informaton Technology</h2>
+        <h3>Enter Marks</h3>
+        <div class="box">
+            1.C language: <input type="number" id="input1">
+            2.C++ Language: <input type="number" id="input2">
+            3.PHP: <input type="number" id="input3">
+            4.Data Base: <input type="number" id="input4">
+            5.Java: <input type="number" id="input5">
+            6.HTML: <input type="number" id="input6">
+            7.CSS: <input type="number" id="input7">
+            <div></div>
+            <button class="result" onclick="totalans()">Result</button>
+            <div>Total is: <span id="total"> 00</span> / 350</div>
+            <div>Percentage is: <span id="result"> 00</span> %</div>
+        </div>
+    </div>
+</body>
+<script>
+    function totalans() {
+        let input1 = document.getElementById("input1");
+        let input2 = document.getElementById("input2");
+        let input3 = document.getElementById("input3");
+        let input4 = document.getElementById("input4");
+        let input5 = document.getElementById("input5");
+        let input6 = document.getElementById("input6");
+        let input7 = document.getElementById("input7");
+        let total = Number(input1.value) + Number(input2.value) + Number(input3.value) + Number(input4.value) + Number(input5.value) + Number(input6.value) + Number(input7.value);
+        if (total > 350) {
+            alert("please enter right marks")
+        } else if (total == 0) {
+            alert("failed")
+            document.getElementById("total").innerHTML = total;
+        }
+        document.getElementById("result").innerHTML = (parseInt(total / 350 * 100))
+    }
+</script>
+
+</html>
