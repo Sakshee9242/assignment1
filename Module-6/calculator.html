@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+                 <!-- css part -->
     <style>
         *{
             margin: 0;
@@ -46,9 +47,12 @@
         #result{
             color: blue;
         }
-    </style>
+    </style> 
+            <!-- css part end  -->
 </head>
 <body>
+
+                  <!-- calculator section start  -->
     <div class="container">
         <h3>Maths Operations</h3>
         <div class="box">
@@ -64,7 +68,10 @@
             <div>answer: <span id="result"> 00</span></div>
         </div>
     </div>
+             <!-- calculator section end  -->
 </body>
+
+              <!-- script of calculator  -->
 <script>
     let input1 = document.getElementById("input1");
     let input2 = document.getElementById("input2");
@@ -89,4 +96,5 @@
         document.querySelector("#result").innerHTML = ans;
     }
 </script>
+               <!-- end of the script of calculator  -->
 </html>
