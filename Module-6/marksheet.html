@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-             <!-- style of marksheet  -->
+              <!-- CSS section here  -->
     <style>
         * {
             margin: 0;
@@ -62,15 +62,17 @@
             color: blue;
         }
     </style>
-                   <!-- this is the end of css  -->
+               <!-- Css section end  -->
 </head>
 
 <body>
 
-                  <!-- marksheet part start  -->
+             <!-- this is container  -->
     <div class="container">
         <h2>Marksheet For Informaton Technology</h2>
         <h3>Enter Marks</h3>
+
+            <!-- this is language section  -->
         <div class="box">
             1.C language: <input type="number" id="input1">
             2.C++ Language: <input type="number" id="input2">
@@ -80,15 +82,22 @@
             6.HTML: <input type="number" id="input6">
             7.CSS: <input type="number" id="input7">
             <div></div>
+
+              <!-- language section end  -->
+
+              <!-- this is result section  -->
+
             <button class="result" onclick="totalans()">Result</button>
             <div>Total is: <span id="total"> 00</span> / 350</div>
             <div>Percentage is: <span id="result"> 00</span> %</div>
         </div>
-    </div>   
-               <!-- end of marksheet part  -->
-</body> 
+                   <!-- result section end  -->
+    </div>
 
-                 <!-- this is the script of marksheet  -->
+                <!-- here is container part end  -->
+</body>
+
+                  <!-- this is script part  -->
 <script>
     function totalans() {
         let input1 = document.getElementById("input1");
@@ -103,11 +112,12 @@
             alert("please enter right marks")
         } else if (total == 0) {
             alert("failed")
+            document.getElementById("total").innerHTML = total;
+            document.getElementById("total").innerHTML = total;
         }
-        document.getElementById("total").innerHTML = total;
-        document.getElementById("result").innerHTML = (parseInt(total / 350 * 100))
+        document.getElementById("result").innerHTML = (parseFloat(total / 350 * 100))
     }
-</script>
-                <!-- end of the script  -->
 
+</script>
+             <!-- scrpt part end  -->
 </html>
