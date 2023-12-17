@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-              <!-- CSS section here  -->
+    <!-- CSS section here  -->
     <style>
         * {
             margin: 0;
@@ -62,17 +62,17 @@
             color: blue;
         }
     </style>
-               <!-- Css section end  -->
+    <!-- Css section end  -->
 </head>
 
 <body>
 
-             <!-- this is container  -->
+    <!-- this is container  -->
     <div class="container">
         <h2>Marksheet For Informaton Technology</h2>
         <h3>Enter Marks</h3>
 
-            <!-- this is language section  -->
+        <!-- this is language section  -->
         <div class="box">
             1.C language: <input type="number" id="input1">
             2.C++ Language: <input type="number" id="input2">
@@ -83,21 +83,21 @@
             7.CSS: <input type="number" id="input7">
             <div></div>
 
-              <!-- language section end  -->
+            <!-- language section end  -->
 
-              <!-- this is result section  -->
+            <!-- this is result section  -->
 
             <button class="result" onclick="totalans()">Result</button>
             <div>Total is: <span id="total"> 00</span> / 350</div>
             <div>Percentage is: <span id="result"> 00</span> %</div>
         </div>
-                   <!-- result section end  -->
+        <!-- result section end  -->
     </div>
 
-                <!-- here is container part end  -->
+    <!-- here is container part end  -->
 </body>
 
-                  <!-- this is script part  -->
+<!-- this is script part  -->
 <script>
     function totalans() {
         let input1 = document.getElementById("input1");
@@ -108,6 +108,7 @@
         let input6 = document.getElementById("input6");
         let input7 = document.getElementById("input7");
         let total = Number(input1.value) + Number(input2.value) + Number(input3.value) + Number(input4.value) + Number(input5.value) + Number(input6.value) + Number(input7.value);
+
         if (total > 350) {
             alert("please enter right marks")
         } else if (total == 0) {
@@ -119,5 +120,6 @@
     }
 
 </script>
-             <!-- scrpt part end  -->
+<!-- scrpt part end  -->
+
 </html>
