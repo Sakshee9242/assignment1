@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Basic & Advanced</title>
+
+                <!-- bootstrap link here  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+                     <!-- css style here  -->
     <style>
+
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
        *{
         margin: 0;
         padding: 0;
         font-family: 'Poppins', sans-serif;
-        background: linear-gradient(90deg,blue,red);
+        background: linear-gradient(90deg,pink,red);
        }
         h1{
             text-align: center;
@@ -19,8 +25,19 @@
         }
         li{
            padding: 20px 10px;
-           color: #e6e6fa;
-           font-size: 20px;
+           color: darkblue;
+           font-size: 22px;
+           list-style: none;
+           font-weight: bolder;
+        }
+        p{
+            margin-left: 20px;
+            font-size: 20px;
+            color: blue;
+            font-weight: bolder;
+        }
+        .card{
+            margin-left: 10px;
         }
       </style>
 </head>
@@ -28,36 +45,58 @@
       <h1>BOOTSTRAP BASIC & ADVANCED</h1>
       
       <div>
-        <ol>
+        <ul>
             <li>1. &nbsp;What are the Advantage of Bootstrap</li>
-        </ol>
-        <ol>
+            <p>To making a website responsive,cross browser compatibility, quick design of prototypes</p>
+        </ul>
+        <ul>
             <li>2. &nbsp;What is Bootstrap Container and how does it work?</li>
-        </ol>
-        <ol>
+            <p>Bootstrap is requiring a contain of element to wrap a site contents for our grid system</p>
+            <p>Due to padding more not a container nestable</p>
+            <p>this is provide responsive fixed behaviour of website</p>
+        </ul>
+        <ul>
             <li>3. &nbsp;What are the Default Bootstrap text setting?</li>
-        </ol>
-        <ol>
+            <p>Default font size is 1rem ( 16px is default) and line height is 1.5</p>
+        </ul>
+        <ul>
             <li>4. &nbsp;What do you know about the Botstrap Grid System?</li>
-        </ol>
-        <ol>
+            <p>Grid system are used for creating page layouts a series of rows and columns and align a cpntent <br> it is built with flexbox and it is fully responsive</p>
+        </ul>
+        <ul>
             <li>5. &nbsp;What is the Difference Between Bootstrap 4 and Bootstrap 5?</li>
-        </ol>
-        <ol>
+            <p>Bootstrap 4 has five levels: xs, sm, md, lg, and xl. Bootstrap 5 has six levels: xs, sm, md, lg, xl, and xxl. Bootstrap 4 includes jquery and all associated plug-ins. Jquery has been deleted and replaced with vanilla JS and several functional plug-ins in Bootstrap 5</p>
+        </ul>
+        <ul>
             <li>6. &nbsp;What is a Button Group, and What is the class for a Basic Button Group?</li>
-        </ol>
-        <ol>
+            <p>“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create a series of buttons in groups (without spaces) vertically or horizontally. and each button has its own own class of 'btn'
+            </p>
+        </ul>
+        <ul>
             <li>7. &nbsp;How can you use Bootstrap to make Thumbnails?</li>
-        </ol>
-        <ol>
+            <p></p>
+        </ul>
+        <ul>
             <li>8. &nbsp;In Bootstrap 4, what is Flexbox?</li>
-        </ol>
-        <ol>
+            <p> Bootstrap 4 flexbox, instead of floats, to handle the layout. The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+        </ul>
+        <ul>
             <li>9. &nbsp;How can one Create an alert in Bootstrap?</li>
-        </ol>
-        <ol>
+            <p>Bootstrap provides an easy way to create predefined alert messages</p>
+            <p>Alerts are created with the .alert class</p>
+        </ul>
+        <ul>
             <li>10. &nbsp;What is a Bootstrap card and How would you create one?</li>
-        </ol>
+            <p>A card is a flexible and extensible content container. It includes options for headers and footers.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="./bootstrap-website/img/d1.png" class="card-img-top img-fluid" width="250px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary ms-3">Go somewhere</a>
+                </div>
+              </div>
+        </ul>
       </div>
 </body>
 </html>
