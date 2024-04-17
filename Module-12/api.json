@@ -1,0 +1,87 @@
+{ 
+    "products" : [
+    {
+        "id": 0,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-1.jpg",
+        "discription" : "Checkered Casual Shirt",
+        "overline" : "$975.00",
+        "price" : 899.99,
+        "featured" : true,
+        "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+        "reviews" : "50 reviews"
+
+    },
+    {   "id": 1,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-2.jpg",
+        "discription" : "Cotton Flared Kurta",
+        "overline" : "$850.00",
+        "price" : 720.99,
+        "featured" : true,
+        "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+        "reviews" : "35 reviews"
+    },
+
+    {"id": 2,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-3.jpg",
+        "discription" : "Men Casual Shirt",
+        "overline" : "$775.00",
+        "price" : 700.99,
+        "featured" : true,
+        "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+        "reviews" : "28 reviews"
+    },
+
+    {"id": 3,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-4.jpg",
+        "discription" : "Blend Straight Kurta",
+        "overline" : "$475.00",
+       "price" : 399.99,
+       "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+       "reviews" : "43 reviews"
+    },
+
+    { "id": 4,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-5.jpg",
+        "discription" : "Women Maroon Top",
+        "overline" : "$577.00",
+       "price" : 500.99,
+       "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+       "reviews" : "30 reviews"
+    },
+
+    {"id": 5,
+       "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-6.jpg",
+        "discription" : "Pink Shirt",
+       "overline" : "$975.00",
+       "price" : 899.99,
+       "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+       "reviews" : "20 reviews"
+    },
+
+    {"id": 6,
+       "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-7.jpg",
+       "discription" : "Dark Blue Top",
+       "overline" : "$675.00",
+       "price" : 558.99,
+       "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+       "reviews" : "70 reviews"
+    },
+
+    {"id": 7,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-8.jpg",
+       "discription" : "White T-Shirt",
+       "overline" : "$675.00",
+      "price" : 599.99,
+      "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+      "reviews" : "48 reviews"
+    },
+    
+    {"id": 8,
+        "img" : "https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/shop-9.jpg",
+        "discription" : "Pink Bag",
+       "overline" : "$475.00",
+       "price" : 400.99,
+       "about" : "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Facere, Ratione Et Ipsam Velit Explicabo Deleniti Obcaecati A, Numquam, Unde Quisquam Quas Quae Accusamus Eveniet Magni. Nobis Iure Et Porro Aut..",
+       "reviews" : "43 reviews"
+    }
+]}

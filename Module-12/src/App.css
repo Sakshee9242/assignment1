@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+.App {
+  text-align: center;
+}
+.home-slider .carousel-item{
+  height: 550px !important;
+  position: relative !important;
+}
+.home-slider .carousel-item img{
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+.home-slider .carousel-item .carousel-caption{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  bottom: auto;
+}
+.title-hero-18{
+  letter-spacing: 1px;
+}
+.title-hero-19{
+  font-size: 45px;
+}
+.title-hero-20{
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.mid-section, .deal_section, .discount-section{
+  background-color: #e9e8e89f;
+}
+.zoom{
+  overflow: hidden !important;
+}
+.zoom img{
+  scale: 1;
+  transition: 0.3s ease-in-out;  
+}
+.zoom img:hover{
+  scale: 1.1;
+}
+.w3-info{
+  top: 20%;
+  left: 5%;
+}
+.w3-info h4{
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+}
+.w3-info a{
+  text-decoration: none;
+  color: #f7f6f6;
+}
+.w-item:hover{
+  background-color:#ef233c !important;
+  border: 1px solid #ef233c !important;
+  color: #f7f6f6;
+}
+.text-end li{
+  list-style: none;
+}
+
+.inner-banner{
+  background: linear-gradient( rgba(0,0, 0,0.5), rgba(0,0, 0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/banner3.jpg");
+  background-position: center;
+}
+.video{
+  background: linear-gradient( rgba(0,0, 0,0.5), rgba(0,0, 0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/banner5.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  animation: pulse-border 1s ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  transition: all 200ms;
+}
+.video-play-button span {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  z-index: 3;
+  border-left: 15px solid #fa183d;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+.overly{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  position: fixed;
+  top: -100%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(0%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.add-class{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(0%);
+  z-index: 1000;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription-info i{
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+
+.pay-method li{
+  list-style: none;
+  font-size: 60px;
+}
+.pay-method a{
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover{
+  color: #f7f6f6 !important;
+}
+
+/* counter section css  */
+.count-box{
+  position: relative;
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgb(0 0 0 / 6%);
+  border-radius: 4px;
+  border: 1px solid #e4e6e5;
+}
+.count-box i{
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #EF234A;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+}
+p{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: gray;
+}
+p.counter{
+  color: #2b2d42;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 0 14px 0;
+}
+.mid-banner{
+  margin-top: 70px;
+  background: linear-gradient( rgba(0,0, 0,0.5), rgba(0,0, 0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/07-12-2021/shoppykart-liberty-demo_Free/1589417704/web/assets/images/banner5.jpg");
+  background-position: center;
+}
+.teams{
+  position: relative;
+  margin-bottom: 80px;
+}
+.teams .team-info{
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 15px;
+  color: #2b2d42;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 4px;
+}
+.teams .social-icon{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.ratings li{
+  list-style: none;
+  transition: .7s ease-in-out;
+}
+.ratings li:hover{
+  color: #EF234A !important;
+}
+
+.click{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  font-size: 18px;
+  color: #fff;
+  height: 50px;
+  right: 0;
+  border: none;
+  outline: none;
+  background: #2b2d42;
+  transition: .2s ease-in-out;
+}
+.card-wrapper:hover .click{
+  bottom: 0;
+}
+.click:hover{
+  background: #ef233c;
+}
+.img-discription span{
+  font-size: 12px;
+  font-weight: 600;
+}
+
